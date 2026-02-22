@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WT Tool 管理员后台</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="admin-container">
+        <header class="admin-header">
+            <h1>WT Tool 管理员后台</h1>
+            <p>使用 GitHub Pages + RAW 链接管理客户端内容</p>
+        </header>
+        
+        <nav class="admin-nav">
+            <ul>
+                <li><button class="nav-btn active" data-section="announcement">公告管理</button></li>
+                <li><button class="nav-btn" data-section="detection">检测软件</button></li>
+                <li><button class="nav-btn" data-section="spring-autumn">春秋检测</button></li>
+                <li><button class="nav-btn" data-section="momo">Momo管理</button></li>
+                <li><button class="nav-btn" data-section="niutou">牛头管理</button></li>
+                <li><button class="nav-btn" data-section="luan">Luan管理</button></li>
+                <li><button class="nav-btn" data-section="module">模块下载</button></li>
+                <li><button class="nav-btn" data-section="sh-file">SH文件管理</button></li>
+            </ul>
+        </nav>
+        
+        <main class="admin-main">
+            <!-- 公告管理 -->
+            <section id="announcement" class="section active">
+                <h2>公告管理</h2>
+                <div class="action-bar">
+                    <button id="add-announcement">添加公告</button>
+                </div>
+                <div class="data-list" id="announcement-list">
+                    <!-- 公告列表将通过JS动态生成 -->
+                </div>
+            </section>
+            
+            <!-- 检测软件 -->
+            <section id="detection" class="section">
+                <h2>检测软件</h2>
+                <div class="action-bar">
+                    <button id="add-detection">添加检测软件</button>
+                </div>
+                <div class="data-list" id="detection-list">
+                    <!-- 检测软件列表将通过JS动态生成 -->
+                </div>
+            </section>
+            
+            <!-- 春秋检测 -->
+            <section id="spring-autumn" class="section">
+                <h2>春秋检测</h2>
+                <div class="action-bar">
+                    <button id="add-spring-autumn">添加词条</button>
+                </div>
+                <div class="data-list" id="spring-autumn-list">
+                    <!-- 春秋检测列表将通过JS动态生成 -->
+                </div>
+            </section>
+            
+            <!-- Momo管理 -->
+            <section id="momo" class="section">
+                <h2>Momo管理</h2>
+                <div class="action-bar">
+                    <button id="add-momo">添加词条</button>
+                </div>
+                <div class="data-list" id="momo-list">
+                    <!-- Momo列表将通过JS动态生成 -->
+                </div>
+            </section>
+            
+            <!-- 牛头管理 -->
+            <section id="niutou" class="section">
+                <h2>牛头管理</h2>
+                <div class="action-bar">
+                    <button id="add-niutou">添加词条</button>
+                </div>
+                <div class="data-list" id="niutou-list">
+                    <!-- 牛头列表将通过JS动态生成 -->
+                </div>
+            </section>
+            
+            <!-- Luan管理 -->
+            <section id="luan" class="section">
+                <h2>Luan管理</h2>
+                <div class="action-bar">
+                    <button id="add-luan">添加词条</button>
+                </div>
+                <div class="data-list" id="luan-list">
+                    <!-- Luan列表将通过JS动态生成 -->
+                </div>
+            </section>
+            
+            <!-- 模块下载 -->
+            <section id="module" class="section">
+                <h2>模块下载</h2>
+                <div class="action-bar">
+                    <button id="add-module">添加模块</button>
+                </div>
+                <div class="data-list" id="module-list">
+                    <!-- 模块列表将通过JS动态生成 -->
+                </div>
+            </section>
+            
+            <!-- SH文件管理 -->
+            <section id="sh-file" class="section">
+                <h2>SH文件管理</h2>
+                <div class="action-bar">
+                    <button id="add-sh-file">添加SH文件</button>
+                </div>
+                <div class="data-list" id="sh-file-list">
+                    <!-- SH文件列表将通过JS动态生成 -->
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <!-- 模态框 -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modal-title">添加内容</h3>
+            <form id="modal-form">
+                <!-- 表单内容将通过JS动态生成 -->
+            </form>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+    <script src="js/announcement.js"></script>
+    <script src="js/detection.js"></script>
+    <script src="js/spring-autumn.js"></script>
+    <script src="js/momo.js"></script>
+    <script src="js/niutou.js"></script>
+    <script src="js/luan.js"></script>
+    <script src="js/module.js"></script>
+    <script src="js/sh-file.js"></script>
+</body>
+</html>

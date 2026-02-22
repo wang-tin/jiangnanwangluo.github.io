@@ -1,0 +1,15 @@
+D:\管理员后台加 WT tool\admin-portal\WT-Tool-Client\bin\Debug\net9.0-windows\WT-Tool-Client.exe
+D:\管理员后台加 WT tool\admin-portal\WT-Tool-Client\bin\Debug\net9.0-windows\WT-Tool-Client.deps.json
+D:\管理员后台加 WT tool\admin-portal\WT-Tool-Client\bin\Debug\net9.0-windows\WT-Tool-Client.runtimeconfig.json
+D:\管理员后台加 WT tool\admin-portal\WT-Tool-Client\bin\Debug\net9.0-windows\WT-Tool-Client.dll
+D:\管理员后台加 WT tool\admin-portal\WT-Tool-Client\bin\Debug\net9.0-windows\WT-Tool-Client.pdb
+D:\管理员后台加 WT tool\admin-portal\WT-Tool-Client\obj\Debug\net9.0-windows\WT-Tool-Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\管理员后台加 WT tool\admin-portal\WT-Tool-Client\obj\Debug\net9.0-windows\WT-Tool-Client.AssemblyInfoInputs.cache
+D:\管理员后台加 WT tool\admin-portal\WT-Tool-Client\obj\Debug\net9.0-windows\WT-Tool-Client.AssemblyInfo.cs
+D:\管理员后台加 WT tool\admin-portal\WT-Tool-Client\obj\Debug\net9.0-windows\WT-Tool-Client.csproj.CoreCompileInputs.cache
+D:\管理员后台加 WT tool\admin-portal\WT-Tool-Client\obj\Debug\net9.0-windows\WT-Tool-Client.sourcelink.json
+D:\管理员后台加 WT tool\admin-portal\WT-Tool-Client\obj\Debug\net9.0-windows\WT-Tool-Client.dll
+D:\管理员后台加 WT tool\admin-portal\WT-Tool-Client\obj\Debug\net9.0-windows\refint\WT-Tool-Client.dll
+D:\管理员后台加 WT tool\admin-portal\WT-Tool-Client\obj\Debug\net9.0-windows\WT-Tool-Client.pdb
+D:\管理员后台加 WT tool\admin-portal\WT-Tool-Client\obj\Debug\net9.0-windows\WT-Tool-Client.genruntimeconfig.cache
+D:\管理员后台加 WT tool\admin-portal\WT-Tool-Client\obj\Debug\net9.0-windows\ref\WT-Tool-Client.dll
