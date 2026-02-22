@@ -36,40 +36,64 @@ body {
     opacity: 0.9;
 }
 
+.admin-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.admin-header {
+    margin-bottom: 20px;
+}
+
+.admin-content {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+
 .admin-nav {
     background-color: white;
     border-radius: 10px;
     padding: 20px;
-    margin-bottom: 30px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 200px;
+    flex-shrink: 0;
 }
 
 .admin-nav ul {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 10px;
 }
 
 .nav-btn {
-    padding: 12px 20px;
+    padding: 12px 16px;
     background-color: #f0f0f0;
     border: none;
-    border-radius: 25px;
+    border-radius: 8px;
     cursor: pointer;
     font-size: 14px;
     font-weight: 500;
     transition: all 0.3s ease;
+    text-align: left;
+    width: 100%;
 }
 
 .nav-btn:hover {
     background-color: #e0e0e0;
-    transform: translateY(-2px);
+    transform: translateX(5px);
 }
 
 .nav-btn.active {
     background-color: #4CAF50;
     color: white;
+}
+
+.admin-main {
+    flex: 1;
+    min-width: 0;
 }
 
 .admin-main {
